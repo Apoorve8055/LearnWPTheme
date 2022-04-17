@@ -10,7 +10,15 @@
 }
 
 .search{
-
     background:yellow;
     height: 32px;
+}
+
+.main-menu ul li,.footer-menu ul li{
+    display:inline;
+    padding:8px;
+}
+
+.footer{
+    background:grey;
 }

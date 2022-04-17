@@ -12,4 +12,7 @@
 12. Adds a callback function to an action hook add_action("wp_enqueue_scripts", "load_scripts").
 13. Include wp_head and wp_footer function header.php and footer.php
 14. Add body_class() in body tag
-
+15. Add some pages using wordpress deshboard.
+16. Add register_nav_menus() in function.php
+17. Include wp_nav_menu() function in header in the place of menu.
+18. Added new footer nav and implemented with some style chages.

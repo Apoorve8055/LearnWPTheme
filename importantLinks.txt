@@ -1,2 +1,3 @@
 Styles comments: https://codex.wordpress.org/Theme_Development
-Theme tags List: https://make.wordpress.org/themes/handbook/review/required/theme-tags/
+Theme tags List: https:
+Display Post: https://codex.wordpress.org/The_Loop 

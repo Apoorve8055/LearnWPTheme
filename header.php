@@ -14,7 +14,13 @@
             <div class="search col-xl-2 col-md-4 col-sm-4 col-6 text-end">Search</div>
         </section>
         <section class="menu-area">
-            <section class="logo">Logo</section>
-            <nav class="main-menu">Menu</nav>
+            <div class="container">
+                <div class="row">
+                    <section class="logo col-xl-2 col-md-2 col-sm-12 col-12 text-center">Logo</section>
+                    <nav class="main-menu col-xl-10 col-md-10 text-end"> 
+                        <?php wp_nav_menu(array('theme_location'=>'my_main_menu')); ?>
+                    </nav>
+                </div>
+            </div>
         </section>
     </header>
