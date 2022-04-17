@@ -1,0 +1,2 @@
+Styles comments: https://codex.wordpress.org/Theme_Development
+Theme tags List: https://make.wordpress.org/themes/handbook/review/required/theme-tags/

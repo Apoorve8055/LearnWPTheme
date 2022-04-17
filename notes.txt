@@ -1,0 +1,6 @@
+1. Create index.php and style.css files
+2. Add the theme deatails in styles.css
+3. Add the screenshot.png file and activate the theme
+4. 
+5. 
+
