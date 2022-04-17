@@ -1,5 +1,5 @@
 1. Create index.php and style.css files
-2. Add the theme deatails in styles.css
+2. Add the theme deatails in styles.css take references from https://codex.wordpress.org/Theme_Development
 3. Add the screenshot.png file and activate the theme
 4. Create header and footer.php sidebar.php
 5. split html data into Header and footer sidebar
