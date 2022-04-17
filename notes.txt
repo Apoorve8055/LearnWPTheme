@@ -6,5 +6,10 @@
 6. Add html data doctype to header into header.php
 7. Add html data <footer> to </body> into footer.php
 8. Add Sidebar data <aside> tag into sidebar.php
-
+9. Added Footer.php
+10. Add load_scripts function which have wp_enqueue_script(), wp_enqueue_style().
+11. Add bootstrap-css, template and bootstrap-js data in function.php
+12. Adds a callback function to an action hook add_action("wp_enqueue_scripts", "load_scripts").
+13. Include wp_head and wp_footer function header.php and footer.php
+14. Add body_class() in body tag
 
