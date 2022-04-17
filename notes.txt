@@ -16,3 +16,4 @@
 16. Add register_nav_menus() in function.php
 17. Include wp_nav_menu() function in header in the place of menu.
 18. Added new footer nav and implemented with some style chages.
+19. Added have_posts() function in index.php and implement other function like the_post(),the_title(),get_the_date(),the_author_posts_link() for refrence https://codex.wordpress.org/The_Loop 

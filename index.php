@@ -16,10 +16,33 @@
                 </div>
             </section>
             <section class="middle-area">
-                <?php get_sidebar();?>
-                <div class="news">NEws</div>
+                <div class="container">
+                    <div class="row">
+                        <?php get_sidebar();?>
+                        <div class="news col-md-9">
+                            <?php 
+                            
+                            if(have_posts()):
+                                while(have_posts()):the_post();
+                            ?>
+                                <article>
+                                    <h1><?php the_title();?></h1>
+                                    <p>Posted in <?php echo get_the_date(); ?> by <?php the_author_posts_link(); ?></p>
+                                    <p>Categories: <?php the_category(''); ?> </p>
+                                    <p><?php the_tags(''); ?></p>
+                                    <p><?php the_content(); ?></p>
+                                </article>
+                            <?php endwhile; else:?>
+                                <p>No Post</p>
+
+                            <?php endif;?>
+                            
+                        </div>
+                    </div>
+                </div>
             </section>
-            <section class="map">  <div class="container">
+            <section class="map"> 
+                 <div class="container">
                     <div class="row">
                       Maps  
                     </div>
